@@ -20,7 +20,7 @@ export class LinksComponent implements OnInit {
 		private configService: ConfigService
 	) {
 		this.message = 'Links from the ASP.NET Core API';
-		this.staticImagesUri = configService.getStaticURI() + '/images/';
+		this.staticImagesUri = configService.getStaticURI() + 'images/';
 	}
 
 	ngOnInit() {

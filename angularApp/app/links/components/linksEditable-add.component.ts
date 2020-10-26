@@ -25,7 +25,7 @@ export class LinksEditableAddComponent implements OnInit {
 		private configService: ConfigService,
 		public imageService: ImageService
 	) {
-		this.staticImageUri = configService.getStaticURI() + '/images/';
+		this.staticImageUri = configService.getStaticURI() + 'images/';
 	}
 
 	ngOnInit(): void {
